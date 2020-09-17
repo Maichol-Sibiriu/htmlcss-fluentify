@@ -132,6 +132,7 @@ h2{
 }
 .center-main{
   padding: 40px 15px;
+  border-bottom: 1px solid #808080;
 }
 .center-main img{
   height: 150px;
@@ -147,7 +148,7 @@ h2{
   width: 60px;
   height: 1px;
   margin: 25px auto;
-  background-color: black;
+  background-color: #808080;
 }
 .center-main p{
   line-height: 1.5;
@@ -156,16 +157,18 @@ h2{
 .plan .col{
   padding: 50px;
 }
-.h2-big{
+h2 .big{
   font-size: 36px;
   line-height: 1.2;
 }
 .plan p{
   margin-bottom: 15px;
 }
-/* a{
-  /* color: yellow; */
+a{
+  color: #7ea4cd;
 }
+
+/* button help */
 .help{
   position: fixed;
   bottom: 0;
@@ -174,7 +177,7 @@ h2{
 .help a{
   display: inline-block;
   padding: 10px;
-  background-color: green;
+  background-color: #7cbb02;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
