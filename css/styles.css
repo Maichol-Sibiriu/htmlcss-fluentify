@@ -27,6 +27,7 @@ h2{
   color: black;
   font-size: 35px;
 }
+
 /* layout */
 .container{
   width: 1200px;
@@ -40,6 +41,7 @@ h2{
 .w-50{
   width: 50%;
 }
+
 /* menu */
 .lista li{
   display: inline-block;
@@ -51,6 +53,7 @@ h2{
 .lista li:last-child{
   padding-right: 0px;
 }
+
 /* typography */
 .float{
   float: left;
@@ -65,6 +68,9 @@ h2{
   width: 40%;
   text-align: right;
 }
+.list-footer{
+  text-align: right;
+}
 .nav{
   text-transform: uppercase;
   line-height: 80px;
@@ -77,6 +83,7 @@ h2{
   text-decoration: none;
   color: white;
 }
+
 /* bottoni */
 .button{
   display: inline-block;
@@ -94,6 +101,11 @@ h2{
   background-color: #7cbb02;
   border: 0;
 }
+.btn-big{
+  padding: 20px;
+}
+
+/* jumbotron */
 .jumbotron{
   height: 480px;
   position: relative;
@@ -109,9 +121,6 @@ h2{
   margin-bottom: 30px;
   color: white;
 }
-.btn-big{
-  padding: 20px;
-}
 /* top-main */
 .top-main{
   padding: 40px 15px;
@@ -126,9 +135,6 @@ h2{
 .col{
   width: calc(100% / 3);
   padding: 0 20px;
-}
-.float-left{
-  float: left;
 }
 .center-main{
   padding: 40px 15px;
@@ -180,7 +186,17 @@ h2 .big{
 a{
   color: #7ea4cd;
 }
-
+i{
+  padding-right: 30px;
+  padding-left: 110px;
+}
+.pseudo::after{
+  content: "";
+  display: block;
+  width: 10px;
+  height: 1px;
+  background-color: #808080;
+}
 /* button help */
 .help{
   position: fixed;
