@@ -187,15 +187,23 @@ a{
   color: #7ea4cd;
 }
 i{
-  padding-right: 30px;
   padding-left: 110px;
 }
-.pseudo::after{
+.selection::after{
   content: "";
   display: block;
-  width: 10px;
   height: 1px;
   background-color: #808080;
+}
+.selection{
+  margin: 0 30px;
+}
+.nav-footer{
+  display: inline-block;
+}
+.button a{
+  color: white;
+  text-decoration: none;
 }
 /* button help */
 .help{
