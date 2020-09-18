@@ -132,7 +132,6 @@ h2{
 }
 .center-main{
   padding: 40px 15px;
-  border-bottom: 1px solid #808080;
 }
 .center-main img{
   height: 150px;
@@ -154,8 +153,22 @@ h2{
   line-height: 1.5;
   font-size: 19px;
 }
+.center-main::after{
+  content: "";
+  display: block;
+  width: 98%;
+  height: 1px;
+  margin: 25px auto;
+  background-color: #808080;
+}
 .plan .col{
   padding: 50px;
+}
+.img-bottom{
+  padding: 0 6%;
+}
+.p-bottom{
+  padding: 0 6%;
 }
 h2 .big{
   font-size: 36px;
